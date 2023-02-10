@@ -1,0 +1,27 @@
+// program to print hello world with different methods
+
+//basic method
+
+#include<stdio.h>
+int main(){
+printf("hello world");// hello world
+return 0;
+}
+
+//without using a single semi colon
+
+#include<stdio.h>
+int main(){
+	if(printf("hello world !")) // hello world !
+	return 0;
+}
+
+//without using the main function
+
+#include<stdio.h>
+#define start main
+ int start(){
+ 	printf("hello world !"); //hello world!
+ 	return 0;
+ }
+ 
